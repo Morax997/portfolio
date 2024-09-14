@@ -1,23 +1,28 @@
-import logo from './logo.svg';
 import './App.css';
+import React, {useEffect} from "react";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import NavBar from "./Pages/Home/NavBar";
+import Home from "./Pages/Home/Homescreen";
+import { Gradient } from './components/Gradient.js';
 
 function App() {
+  useEffect(() => {
+    const gradient = new Gradient();
+    gradient.initGradient('#gradient-canvas')
+  }, []);
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <canvas id="gradient-canvas" data-transition-in/>
+      <Router>
+        <div>
+          <NavBar/>
+          <Routes>
+            <Route path="/" element={<Home/>}></Route>
+            <Route path="*" element={<div> 404 Not Found</div>}></Route>
+          </Routes>
+        </div>
+      </Router>
     </div>
   );
 }

@@ -1,0 +1,49 @@
+{
+  "skills": [
+    {
+      "id": 1,
+      "src": "./img/product-chain-1.png",
+      "title": "Front-End",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis imperdiet vel velit a sollicitudin. Sed placerat lectus eget lorem tincidunt accumsan. Quisque in ipsum ut mi fringilla posuere."
+    },
+    {
+      "id": 2,
+      "src": "./img/tag-1.png",
+      "title": "Back-End",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis imperdiet vel velit a sollicitudin. Sed placerat lectus eget lorem tincidunt accumsan. Quisque in ipsum ut mi fringilla posuere."
+    },
+    {
+      "id": 3,
+      "src": "./img/feather-pen-2.png",
+      "title": "UI & UX Design",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis imperdiet vel velit a sollicitudin. Sed placerat lectus eget lorem tincidunt accumsan. Quisque in ipsum ut mi fringilla posuere."
+    },
+    {
+      "id": 4,
+      "src": "./img/feather-pen-1.png",
+      "title": "Webflow Development",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis imperdiet vel velit a sollicitudin. Sed placerat lectus eget lorem tincidunt accumsan. Quisque in ipsum ut mi fringilla posuere."
+    }
+  ],
+  "portfolio": [
+    {
+      "id": 1,
+      "src": "./img/placeholder-image.png",
+      "title": "Ahuse",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis imperdiet vel velit a sollicitudin. Sed placerat lectus eget lorem tincidunt accumsan. Quisque in ipsum ut mi fringilla posuere.",
+      "link": "View In GitHub"
+    },
+    {
+      "id": 2,
+      "src": "./img/placeholder-image-1.png",
+      "title": "App Dashboard",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis imperdiet vel velit a sollicitudin. Sed placerat lectus eget lorem tincidunt accumsan. Quisque in ipsum ut mi fringilla posuere."
+    },
+    {
+      "id": 3,
+      "src": "./img/placeholder-image-2.png",
+      "title": "Easy Rentn",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis imperdiet vel velit a sollicitudin. Sed placerat lectus eget lorem tincidunt accumsan. Quisque in ipsum ut mi fringilla posuere."
+    }
+  ]
+}
