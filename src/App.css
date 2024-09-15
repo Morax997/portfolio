@@ -71,7 +71,7 @@ p {
 .btn-primary {
     color: var(--white);
     background-color: var(--primary);
-    border: 1px solid var(--primary);
+    border: 1px solid black;
 }
 .btn-primary:hover {
     color: var(--primary);
@@ -200,30 +200,27 @@ h3 {
     line-height: 24px;
 }
 
+
 .hero--section {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
     padding: 133.333px 85.333px 133.333px;
-    align-items: center;
-    justify-content: space-between;
-    gap: 32px;
-    /*background-color: var(--bg-shade);*/
 }
-.hero--section--content-box {
+.hero--section--content--box {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
     gap: 32px;
+
 }
 .hero--section--content {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
     gap: 21.333px;
 }
 .hero--section--description {
     color: white;
     font-size: 20px;
+    text-align: center;
 }
 .hero--section--content--box > button {
     margin-top: 21.333px;
@@ -234,6 +231,7 @@ h3 {
     font-weight: 700;
     line-height: 90px;
     align-self: stretch;
+    text-align: center;
 }
 .hero--section--title--color {
     color: var(--primary);
@@ -244,19 +242,19 @@ h3 {
     font-weight: 400;
     line-height: 36px;
 }
-.hero--section--img {
-    display: flex;
-}
-.hero--section--img > img {
-    width: 100%;
-    height: 100%;
-}
+/*.hero--section--img {*/
+/*    display: flex;*/
+/*}*/
+/*.hero--section--img > img {*/
+/*    width: 100%;*/
+/*    height: 100%;*/
+/*}*/
+
 /* Hero Section CSS END */
 
 /* About Me CSS */
 
 .about--section {
-    display: grid;
     padding: 133.3px 85.3px;
     align-items: center;
     gap: 114.6px;
@@ -368,6 +366,15 @@ h3 {
     align-items: center;
     align-self: stretch;
 }
+.footer__logo__text {
+    font-size: 35px;
+    margin-left: 18px;
+    font-weight: 800;
+}
+.footer__logo__container {
+    display: flex;
+    align-items: center;
+}
 .footer--items > ul {
     list-style: none;
     display: flex;
@@ -406,6 +413,22 @@ h3 {
     line-height: 28px;
 }
 
+/* Contact Me CSS */
+
+.contact--section {
+    display: flex;
+    color: white;
+}
+.contactMe--container {
+    display: flex;
+    flex-direction: column;
+}
+.contact--info {
+    color: white;
+}
+.contact--mail {
+    color: white;
+}
 /* Responsive Screens */
 @media only screen and (max-width: 1800px) {
     .hero--section--title {
