@@ -25,8 +25,8 @@ export default function HeroSection() {
             Developer
           </h1>
           <p className="hero--section--description">
-            Lorem ipsum solor sit amet consectetur adipisicing elit.
-            <br/> Dolorum, quas. Amet soluta assumeda cum?
+            Welcome to my portfolio!
+            <br/>I work with React to build applications that are dynamic and responsive!
           </p>
         </div>
         <Link
