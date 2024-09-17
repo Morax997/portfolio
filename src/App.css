@@ -539,9 +539,9 @@ h3 {
     .portfolio--section {
         margin: 1px;
     }
-    .portfolio--section--card--content {
-        margin:
-    }
+    /*.portfolio--section--card--content {*/
+    /*    margin:*/
+    /*}*/
     .skills--section,
     .testimonial--section,
     .contact--section,
