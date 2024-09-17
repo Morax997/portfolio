@@ -1,3 +1,17 @@
+import {Link} from "react-scroll";
+import {useState} from "react";
+
+
+function HeroSectionButton() {
+  const [heroActive, setHeroActive] = useState(false);
+
+
+  const closeMenu = () => {
+    setHeroActive(false);
+
+  }
+}
+
 export default function HeroSection() {
   return (
     <section id="heroSection" className="hero--section">
@@ -15,7 +29,17 @@ export default function HeroSection() {
             <br/> Dolorum, quas. Amet soluta assumeda cum?
           </p>
         </div>
-        <button className="btn btn-primary">Get In Touch</button>
+        <Link
+          activeClass="navbar--active-content"
+          spy={true}
+          smooth={true}
+          offset={-70}
+          duration={500}
+          to="ContactMe"
+          className="btn btn-primary"
+        >
+          Get In Touch
+        </Link>
       </div>
     </section>
   );

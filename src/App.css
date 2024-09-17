@@ -384,6 +384,7 @@ h3 {
 }
 .footer--items ul > li > a {
     text-decoration: none;
+    cursor: pointer;
 }
 .footer--social--icon > ul {
     list-style: none;
@@ -418,16 +419,49 @@ h3 {
 .contact--section {
     display: flex;
     color: white;
+    justify-content: flex-end;
+    margin-bottom: 20px;
 }
 .contactMe--container {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    font-size: 50px;
+    background-color: white;
+    padding: 10px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    color: black;
+}
+.contact--info--container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    font-size: 50px;
+    background-color: white;
+    padding: 10px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.contactMe--tel {
+    display: flex;
+    align-items: flex-end;
+    padding: 5px;
+}
+.contactMe--mail {
+    display: flex;
+    align-items: flex-end;
+    padding: 5px;
+}
+
+.contact--info--text {
+   display: flex;
 }
 .contact--info {
-    color: white;
+    margin-left: 20px;
 }
 .contact--mail {
-    color: white;
+    margin-left: 20px;
 }
 /* Responsive Screens */
 @media only screen and (max-width: 1800px) {
