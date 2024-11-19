@@ -141,9 +141,9 @@ h3 {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 85.333px;
+    padding: 10px 85px;
     background: var(--white);
-    box-shadow: 0px 5.333px 80px 0 rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 5px 80px 0 rgba(0, 0, 0, 0.1);
     position: fixed;
     top: 0;
     left: 0;
@@ -202,7 +202,7 @@ h3 {
 
 
 .hero--section {
-    padding: 133.333px 85.333px 133.333px;
+    padding: 133px 85px 133px;
 }
 .hero--section--content--box {
     display: flex;
@@ -215,7 +215,7 @@ h3 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 21.333px;
+    gap: 21px;
 }
 .hero--section--description {
     color: white;
@@ -223,7 +223,7 @@ h3 {
     text-align: center;
 }
 .hero--section--content--box > button {
-    margin-top: 21.333px;
+    margin-top: 21px;
 }
 .hero--section--title {
     color: var(--heading-color);
@@ -255,9 +255,9 @@ h3 {
 /* About Me CSS */
 
 .about--section {
-    padding: 133.3px 85.3px;
+    padding: 133px 85px;
     align-items: center;
-    gap: 114.6px;
+    gap: 114px;
     grid-template-columns: repeat(2, 1fr);
 }
 .about--section--img > img {
@@ -286,13 +286,13 @@ h3 {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    gap: 21.3px;
+    gap: 21px;
 }
 .portfolio--section--container {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 42.6px;
+    gap: 42px;
     width: 100%;
 }
 .portfolio--section--img {
@@ -329,8 +329,8 @@ h3 {
     text-decoration: none;
     display: flex;
     gap: 16px;
-    border-bottom: 1.33px solid var(--primary);
-    padding-bottom: 10.6px;
+    border-bottom: 1px solid var(--primary);
+    padding-bottom: 10px;
     font-weight: 600;
 }
 .portfolio--section--card:hover path {
@@ -353,7 +353,7 @@ h3 {
 
 .footer--container {
     display: flex;
-    padding: 106.667px 85.333px;
+    padding: 106px 85px;
     flex-direction: column;
     align-items: flex-start;
     background: var(--bg-shade);
@@ -379,7 +379,7 @@ h3 {
     list-style: none;
     display: flex;
     align-items: flex-start;
-    gap: 42.667px;
+    gap: 42px;
     text-decoration: none;
 }
 .footer--items ul > li > a {
@@ -396,8 +396,8 @@ h3 {
     text-decoration: none;
 }
 .divider {
-    margin: 106px 0 42.67px;
-    height: 1.333px;
+    margin: 106px 0 42px;
+    height: 1px;
     width: 100%;
     background: rgba(40, 41, 56, 0.55);
 }
@@ -409,7 +409,7 @@ h3 {
 }
 .footer--content {
     color: var(--black);
-    font-size: 18.667px;
+    font-size: 18px;
     font-weight: 400;
     line-height: 28px;
 }
@@ -611,6 +611,28 @@ h3 {
     background-color: #000000;
     border-radius: 0.625rem;
     transition: all ease-in-out 0.2s;
+}
+
+@media screen and (max-width: 600px) {
+    .navbar {
+        padding: 10px 38px;
+    }
+
+    .portfolio--section {
+        padding: 112px 38px;
+    }
+
+    .hero--section {
+        padding: 133px 38px 133px;
+    }
+
+    .about--section {
+        padding: 133px 38px;
+    }
+
+    .footer--container {
+        padding: 106px 38px;
+    }
 }
 
 @media screen and (max-width: 1200px) {
