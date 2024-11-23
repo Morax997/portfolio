@@ -2,22 +2,24 @@
   "portfolio": [
     {
       "id": 1,
-      "src": "./img/placeholder-image.png",
-      "title": "Ahuse",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis imperdiet vel velit a sollicitudin. Sed placerat lectus eget lorem tincidunt accumsan. Quisque in ipsum ut mi fringilla posuere.",
-      "link": "View In GitHub"
+      "src": "./img/project-image-1.jpg",
+      "title": "Books List",
+      "description": "A simple app to keep track of the books you’ve read, want to read, or are currently reading. Explore lists, organize your library, and stay on top of your reading goals.",
+      "github_url": "https://github.com/Morax997/mern-client"
     },
     {
       "id": 2,
-      "src": "./img/placeholder-image-1.png",
-      "title": "App Dashboard",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis imperdiet vel velit a sollicitudin. Sed placerat lectus eget lorem tincidunt accumsan. Quisque in ipsum ut mi fringilla posuere."
+      "src": "./img/project-image-2.jpg",
+      "title": "Chat Room",
+      "description": "A casual chat app where you can jump into conversations with just your Google account. No hassle, just quick and easy chatting.",
+      "github_url": "https://github.com/Morax997/chat-rooms"
     },
     {
       "id": 3,
-      "src": "./img/placeholder-image-2.png",
-      "title": "Easy Rentn",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis imperdiet vel velit a sollicitudin. Sed placerat lectus eget lorem tincidunt accumsan. Quisque in ipsum ut mi fringilla posuere."
+      "src": "./img/project-image-3.jpg",
+      "title": "Portfolio Xhoi Ibra v.1",
+      "description": "This personal portfolio site showcases my work, skills, and projects. A little space on the web that’s all about what I do and what I’m passionate about.",
+      "github_url": "https://github.com/Morax997/portfolio"
     }
   ]
 }
