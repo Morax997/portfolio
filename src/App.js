@@ -5,8 +5,6 @@ import NavBar from "./Pages/Home/NavBar";
 import Home from "./Pages/Home/Homescreen";
 import { Gradient } from './components/Gradient.js';
 
-
-
 function App() {
   useEffect(() => {
     const gradient = new Gradient();

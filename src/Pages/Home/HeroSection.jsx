@@ -1,16 +1,4 @@
 import {Link} from "react-scroll";
-import {useState} from "react";
-
-
-function HeroSectionButton() {
-  const [heroActive, setHeroActive] = useState(false);
-
-
-  const closeMenu = () => {
-    setHeroActive(false);
-
-  }
-}
 
 export default function HeroSection() {
   return (
