@@ -3,9 +3,9 @@
     {
       "id": 1,
       "src": "./img/project-image-1.jpg",
-      "title": "Books List",
-      "description": "A simple app to keep track of the books you’ve read, want to read, or are currently reading. Explore lists, organize your library, and stay on top of your reading goals.",
-      "github_url": "https://github.com/Morax997/mern-client"
+      "title": "Finance Manager",
+      "description": "A Next.js finance manager app for tracking income, expenses, and accounts with responsive dashboards, secured with OAuth2.0.",
+      "github_url": "https://finance.xhoi.dev"
     },
     {
       "id": 2,
